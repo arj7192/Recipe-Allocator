@@ -1,0 +1,14 @@
+{
+  "two_recipes": {
+    "two_portions": 58684,
+    "four_portions": 13363
+  },
+  "three_recipes": {
+    "two_portions": 103886,
+    "four_portions": 22061
+  },
+  "four_recipes": {
+    "two_portions": 35154,
+    "four_portions": 18434
+  }
+}
