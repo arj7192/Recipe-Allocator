@@ -16,3 +16,16 @@ This repo includes
 - jupyter notebooks that demo the allgorithm and display various test cases and how the algorithm performs on those.
 - Dockerfile with build and start shell scripts to facilitate instantiating this as a standalone app, hosted on 0.0.0.0:5000
 - requirements.txt for dependencies and some sample data as json files to facilitate the static app endpoint.
+
+
+
+To get started using docker,
+  - clone this repo
+  - run ./build.sh
+  - run ./start.sh
+  - this should start the docker container, which you can check with docker ps
+  - open browser and visit 0.0.0.0:5000/static/
+  - this should show 'False' written on the browser window page
+  - you can then input your own data by making a post request liek this one:
+  
+  <img src="data/post.png" alt="drawing" width="2000">
