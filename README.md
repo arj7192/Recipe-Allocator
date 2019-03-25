@@ -4,7 +4,7 @@ Recipe Allocator Algorithm
 This algorithm basically sorts the stocks in ascending order, and the orders in descending order of (num_recipes, num_portions). For each (num_recipe, num_portion) category, we start greedily allocating/removing stocks from the sorted stocks_list. As we keep reaching the limit of number of stocks available for the least available recipe, we keep removing them and continuing to iterate. If we exhaust the stocks_list before iterating through all the (num_recipe, num_portion) combinations, we return False meaning that there aren’t enough recipes for defaulters, under the constraint that we can’t repeat recipes for any of them. Time-complexity wise, this if we denote number_of_recipes_for_defaults as n, and number_of_portions_for_defaults as p and the length_of_stocks_list as s, this algorithm is O(np + s).
 
 
-<img src="data/algo.png" alt="drawing" width="200">
+<img src="data/algo.png" alt="drawing" width="2000">
 
 
 This repo includes 
